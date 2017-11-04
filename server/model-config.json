@@ -14,42 +14,42 @@
     ]
   },
   "User": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "Usuario": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   },
   "Evento": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   },
   "Actividad": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   },
   "Localidad": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   }
 }
