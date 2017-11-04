@@ -1,0 +1,29 @@
+{
+  "name": "Usuario",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "Eventos": {
+      "type": "hasMany",
+      "model": "Evento",
+      "foreignKey": ""
+    },
+    "Actividades": {
+      "type": "hasMany",
+      "model": "Actividad",
+      "foreignKey": ""
+    },
+    "Localidades": {
+      "type": "hasMany",
+      "model": "Localidad",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

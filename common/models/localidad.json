@@ -1,0 +1,47 @@
+{
+  "name": "Localidad",
+  "plural": "Localidades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "lat": {
+      "type": "string",
+      "required": true
+    },
+    "lng": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Eventos": {
+      "type": "hasMany",
+      "model": "Evento",
+      "foreignKey": ""
+    },
+    "Usuario": {
+      "type": "belongsTo",
+      "model": "Usuario",
+      "foreignKey": ""
+    },
+    "Actividades": {
+      "type": "hasMany",
+      "model": "Actividad",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
