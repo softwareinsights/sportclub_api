@@ -8,10 +8,9 @@
     "port": 25016,
     "url": "",
     "database": "sportclub",
-    "password": "${USERMONGO}",
+    "password": "123456",
     "name": "mongodb",
-    "user": "${PASSMONGO}",
+    "user": "root",
     "connector": "mongodb"
   }
 }
-

@@ -1,1 +1,1 @@
-web: lb run
+web: node .
