@@ -22,7 +22,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "actividades": {
+      "type": "hasMany",
+      "model": "Actividad",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
