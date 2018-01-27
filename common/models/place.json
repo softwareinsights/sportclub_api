@@ -27,6 +27,11 @@
       "type": "hasMany",
       "model": "Actividad",
       "foreignKey": ""
+    },
+    "actividads": {
+      "type": "hasAndBelongsToMany",
+      "model": "Actividad",
+      "foreignKey": ""
     }
   },
   "acls": [],
