@@ -13,7 +13,7 @@ module.exports = function(Place) {
         if (!ctx.args.filter.where) {
             ctx.args.filter.where = {};
         }
-        ctx.args.filter.where = _.merge(ctx.args.filter.where, { idPerson: { exists : true }});
+        ctx.args.filter.where = _.merge(ctx.args.filter.where, {});
         ctx.args.filter.order = ""
         next();
     });
