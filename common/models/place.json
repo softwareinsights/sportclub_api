@@ -19,6 +19,9 @@
     "location": {
       "type": "object",
       "required": true
+    },
+    "activities": {
+      "type": "object"
     }
   },
   "validations": [],

@@ -4,11 +4,11 @@
     "connector": "memory"
   },
   "mongodb": {
-    "host": "ds125016.mlab.com",
-    "port": 25016,
+    "host": "localhost",
+    "port": 27017,
     "url": "",
     "database": "sportclub",
-    "password": "123456",
+    "password": "",
     "name": "mongodb",
     "user": "root",
     "connector": "mongodb"
