@@ -22,6 +22,18 @@
     },
     "activities": {
       "type": "object"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "public": {
+      "type": "boolean"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "horarios": {
+      "type": "string"
     }
   },
   "validations": [],
